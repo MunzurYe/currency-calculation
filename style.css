@@ -1,0 +1,67 @@
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+html {
+  opacity: 0.7;
+  background-color: rgb(184, 172, 157);
+  background-size: cover;
+  background-position: center;
+  background-image: url(resimler/döviz.jpg);
+  background-repeat: no-repeat;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 10px;
+}
+.header-wrapper {
+  margin-top: 200px;
+  display: flex; /*içinde bulunan çocuklar yatay ve dikeyde esneklik kazanır.*/
+  flex-direction: column;
+  align-items: center;
+}
+.header-wrapper > h4 {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+input {
+  height: 30px;
+  border: none;
+  color: black;
+  background-color: rgb(221, 212, 37);
+  box-shadow: 3px 6px 9px rgb(0, 0, 0);
+  padding: 5px;
+  margin: 0px 10px;
+  width: 150px;
+  border-radius: 20px;
+}
+select {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: rgb(221, 212, 37);
+  box-shadow: 3px 6px 9px rgb(0, 0, 0);
+  border-radius: 30px;
+  padding: 5px;
+}
+span {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+.moneyCure{
+    border-radius: 30px;
+}
